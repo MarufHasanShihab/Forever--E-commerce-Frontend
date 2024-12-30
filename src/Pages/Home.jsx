@@ -1,16 +1,17 @@
 import BestSellers from "../Components/Home/BestSellers";
 import Hero from "../Components/Home/Hero";
-import LatestCollections from './../Components/Home/LatestCollections';
-
+import OurPolicy from "../Components/Home/OurPolicy";
+import LatestCollections from "./../Components/Home/LatestCollections";
 
 const Home = () => {
-    return (
-        <div>
-            <Hero/>
-            <LatestCollections/>
-            <BestSellers/>
-        </div>
-    );
+  return (
+    <div>
+      <Hero />
+      <LatestCollections />
+      <BestSellers />
+      <OurPolicy />
+    </div>
+  );
 };
 
 export default Home;
