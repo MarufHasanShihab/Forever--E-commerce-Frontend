@@ -10,6 +10,7 @@ import Login from "./Pages/Login";
 import PleaceOrder from "./Pages/PleaceOrder";
 import Orders from "./Pages/Orders";
 import Navbar from "./Components/Common/Navbar";
+import Footer from "./Components/Common/Footer";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/pleace-order" element={<PleaceOrder />} />
         <Route path="/orders" element={<Orders />} />
       </Routes>
+      <Footer/>
     </div>
   );
 };
